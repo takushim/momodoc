@@ -97,6 +97,5 @@ This is the most **tricky** part. You need to configure the Windows system to re
 ```
 $env:PATHEXT = "${env:PATHEXT};.PY"
 $env:PATH = "${env:PATH};${HOME}/bin/momomagick"
-
 ```
 5. Now, you are ready to follow the [usage guide](https://github.com/takushim/momodoc/blob/main/usage.md)
