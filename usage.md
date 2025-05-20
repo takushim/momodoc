@@ -29,8 +29,6 @@ This document describes how to run Python scripts in my toolkits on your images,
 4. If you haven't set up the `PATH` and `PATHEXT` environment variables, run the following commands to configure these variables.
 ```
 $env:PATHEXT = "${env:PATHEXT};.PY"
-```
-```
 $env:PATH = "${env:PATH};${HOME}/bin/momomagick"
 ```
 5. You can confirm that all settings are correct using:

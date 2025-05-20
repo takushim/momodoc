@@ -96,8 +96,6 @@ This is the most **tricky** part. You need to configure the Windows system to re
 4. Alternatively, you can temporarily set the environment variables in your current PowerShell session:
 ```
 $env:PATHEXT = "${env:PATHEXT};.PY"
-```
-```
 $env:PATH = "${env:PATH};${HOME}/bin/momomagick"
 
 ```
